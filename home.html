@@ -1,1 +1,73 @@
-<p>hello</p>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.Garbearlez.com/Home.html">
+<Head>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="file:///home/chronos/u-c26dfcdfd4f8d91e8b471ab08fdb41425db6dc70/Downloads/Webpages/Website/Favicons/Home.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="file:///home/chronos/u-c26dfcdfd4f8d91e8b471ab08fdb41425db6dc70/Downloads/Webpages/Website/CSS/Home.css" title="Home">
+    <script type="text/javascript">
+    function functionOne() { alert('You clicked the top text'); }
+    function functionTwo() { alert('You clicked the middle text'); }
+    function functionThree() { alert('You clicked the bottom text'); }
+      </script>
+      <style>
+      body {margin:0;}
+      
+      .icon-bar {
+          width: 100%;
+          background-color: #555;
+          overflow: auto;
+      }
+      
+      .icon-bar a {
+          float: left;
+          width: 20%;
+          text-align: center;
+          padding: 12px 0;
+          transition: all 0.3s ease;
+          color: white;
+          font-size: 36px;
+      }
+      
+      .icon-bar a:hover {
+          background-color: #000;
+      }
+      
+      .active {
+          background-color: #555 !important;
+      }
+      </style>
+</Head>
+<body>
+    <div class="icon-bar">
+      <a class="active" href="Home.html"><i class="fa fa-home"></i></a>
+      <a class="active" href="Login.html"><i class="glyphicon glyphicon-user"></i></a>
+      <a href="mailto:garbearlez@gmail.com"><i class="fa fa-envelope"></i></a> 
+      <a href="http://google.com"><i class="fa fa-globe"></i></a>
+      <a href="Credits.html"><i class="material-icons" style="font-size:36px">contact_mail</i></a> 
+    </div>
+    <div class="icon-bar">
+      <a class="active" href="Home.html"><p>Home</p></a>
+      <a class="active" href="Login.html"><p>Login</p></a>
+      <a class="active" href="mailto:garbearlez@gmail.com" color:><p>Contact Me</p></a>
+      <a class="active" href="http://google.com"><p>Search Google</p></a>
+      <a class="active" href="Credits.html"><p>Credits</p></a>
+    </div>
+    `<h1>Welcome To My Website</h1>
+    <h3>This website was made to test out different coding methoods</h3>
+    <br>
+        <h2>Basic Overview</h2>
+        <p>What you are reading right now is a <b>html</b> file. This type of file is used as the template of every website, without one nothing would be able to work</p>
+        
+    
+    <!--This is For the time page was last opened-->
+    <p>This page was opened or refreshed as of</p>
+    <p id="date"></p>
+    <script>
+    document.getElementById("date").innerHTML = Date();
+    </script>
+</body>
